@@ -386,8 +386,8 @@ footer {
     }
     
     .nav-links {
-        gap: 0.3rem;
-        font-size: 0.7rem;
+        gap: 0.4rem;
+        font-size: 0.75rem;
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
@@ -399,7 +399,11 @@ footer {
     }
     
     .nav-links a {
-        padding: 0.25rem 0.4rem;
+        padding: 0.4rem 0.6rem;
+        background: var(--bg-color);
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        display: block;
     }
     
     .hero-split {
